@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Persistence Scholarship Fund</title>
+  <meta name="description" content="A monthly micro‑grant for returning part‑time students to help cover essential education expenses.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>body{background:#0f172a;color:#f8fafc}</style>
+</head>
+<body class="bg-slate-900 antialiased text-slate-100">
+  <main class="max-w-3xl mx-auto px-6 py-12">
+    <!-- Hero -->
+    <header class="text-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-800 text-blue-200 text-xs font-medium">Monthly micro‑grant</div>
+      <h1 class="mt-4 text-4xl font-bold tracking-tight text-blue-100">Persistence Scholarship Fund</h1>
+      <p class="mt-3 text-slate-300 max-w-2xl mx-auto">This scholarship supports <strong>returning CPE students</strong> who are continuing their education while balancing work, family, or other responsibilities. The award is designed to reduce friction for essentials so students can focus on finishing what they started.</p>
+    </header>
+
+    <!-- Quick facts -->
+    <section class="mt-8 grid sm:grid-cols-3 gap-4">
+      <div class="bg-slate-800 rounded-2xl shadow-sm border border-slate-700 p-5">
+        <p class="text-xs uppercase tracking-wide text-slate-400">Award</p>
+        <p class="mt-1 text-xl font-semibold text-white">$200 - $400</p> <p>(based on GPA and performance)</p>
+      </div>
+      <div class="bg-slate-800 rounded-2xl shadow-sm border border-slate-700 p-5">
+        <p class="text-xs uppercase tracking-wide text-slate-400">Use of funds</p>
+        <p class="mt-1 text-base text-slate-200">Tuition, books, required fees, transit, or general living costs</p>
+      </div>
+      <div class="bg-slate-800 rounded-2xl shadow-sm border border-slate-700 p-5">
+        <p class="text-xs uppercase tracking-wide text-slate-400">Disbursement</p>
+        <p class="mt-1 text-base text-slate-200">Monthly while enrolled in a Harper College CPE Program</p>
+      </div>
+    </section>
+
+    <!-- Eligibility -->
+    <section class="mt-8 bg-slate-800 rounded-2xl shadow-sm border border-slate-700 p-6">
+      <h2 class="text-xl font-semibold text-blue-200">Eligibility</h2>
+      <ul class="mt-3 list-disc ml-5 space-y-1 text-slate-300">
+        <li>Currently <strong>enrolled in A CPE Program</strong> at HarperCollege</li>
+        <li><strong>Returning student</strong> (continuing after a break, switching programs, or re‑starting toward a credential)</li>
+        <li>In <strong>good academic standing</strong> with the institution</li>
+        <li>Age 18 or older</li>
+      </ul>
+    </section>
+
+    <!-- How it works -->
+    <section class="mt-6 bg-slate-800 rounded-2xl shadow-sm border border-slate-700 p-6">
+      <h2 class="text-xl font-semibold text-blue-200">How it works</h2>
+      <ol class="mt-3 list-decimal ml-5 space-y-2 text-slate-300">
+        <li>Submit a short application (basic info + a brief statement on how this support will help you persist).</li>
+        <li>Provide a valid mail.harpercollege.edu email to verify enrollment.</li>
+        <li>Provide a United States based Phone Number and Paypal ID as funds will be distributed via Paypal</li>
+        <li>Recipients receive <strong>$300 per month</strong> for the active term. Disbursements are made electronically.</li>
+      </ol>
+    </section>
+
+    <!-- Selection, timeline, privacy -->
+    <section class="mt-6 grid gap-4 sm:grid-cols-3">
+      <div class="bg-slate-800 rounded-2xl shadow-sm border border-slate-700 p-6">
+        <h3 class="font-semibold text-blue-200">Selection</h3>
+        <p class="mt-2 text-slate-300 text-sm">Focus on persistence, effort, and clarity of goals rather than GPA alone.</p>
+      </div>
+      <div class="bg-slate-800 rounded-2xl shadow-sm border border-slate-700 p-6">
+        <h3 class="font-semibold text-blue-200">Timeline</h3>
+        <p class="mt-2 text-slate-300 text-sm">Applications are reviewed on a rolling basis. Awards may begin the same month as approval.</p>
+      </div>
+      <div class="bg-slate-800 rounded-2xl shadow-sm border border-slate-700 p-6">
+        <h3 class="font-semibold text-blue-200">Privacy</h3>
+        <p class="mt-2 text-slate-300 text-sm">Information is used solely to evaluate eligibility and manage disbursements and is not shared or sold.</p>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="mt-8 text-center">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSf5TP4YxR0TT9uOkJRVQocuRENiC7RINGTssZf_5qDg5VukTQ/viewform" class="inline-flex items-center gap-2 rounded-xl bg-blue-700 px-6 py-3 text-white font-medium hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">Apply now</a>
+
+    </section>
+
+    <footer class="text-center text-xs text-slate-500 mt-12">© <span id="year"></span> Persistence Scholarship Fund</footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
